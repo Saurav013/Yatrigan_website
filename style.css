@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-tale {
+    background-color: rgb(2, 62, 62) !important;
+}
+
+.btn-teal {
+    background-color: honeydew;
+}
+
+.carousel-caption {
+    bottom: 150px;
+}
+
+.bg-yellow {
+    background: linear-gradient(180deg, grey, teal, white);
+}
+
+.text-teal {
+    color: rgb(2, 62, 62) !important;
+
+}
+
+.bg-grey {
+    background: linear-gradient(180deg, grey, teal, white);
+}
+
+.btn-green {
+    background-color: teal;
+}
+
+.btn-dark {
+    background: linear-gradient(45deg, black, teal, black);
+
+}
+
+@media(max-width:576px) {
+    .carousel-caption {
+        bottom: 20px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        display: none;
+
+    }
+}
